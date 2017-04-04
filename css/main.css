@@ -509,7 +509,7 @@ h2 {
 **************************/
 
 #press {
-   background-color: #33888F;
+  background-color: #ecedef;
   position: relative;
   width: 100%;
   display: flex;
@@ -528,7 +528,7 @@ h2 {
 #press h2 {
   color: black;
   margin-bottom: 23px;
-}
+  padding: 60px 60px 0px;}
 
 /*************************
 ******Twitter CSS****
