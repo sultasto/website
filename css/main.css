@@ -528,7 +528,60 @@ h2 {
   background-color: #126d55
 }
 
+/*************************
+*******Masterclass CSS**********
+**************************/
 
+#masterclass {
+  background-color: #75B46E;  
+  position: relative;  
+  width: 100%;
+  display: flex;
+}
+
+.masterclass-content {
+  width: 50%;
+   background-image: url("../images/performar-bg.jpg");
+  background-position: left bottom;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 70px 70px 110px;
+}
+
+.masterclass-content img {
+  width: 600px;
+}
+
+.masterclass-img {
+  width: 50%;
+   background-image: url("../images/performar-bg.jpg");
+  background-position: left bottom;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 70px 70px 110px;
+  width: 600px;
+}
+
+#masterclass h2 {
+  margin-bottom: 23px;
+}
+
+.masterclass-content p {
+  font-size: 17px;
+  font-family: 'Dosis',sans-serif;
+}
+
+#master .btn-primary {
+  background-color: #137c61;
+  color: #fff;
+  text-transform: capitalize;
+  border: none;
+  margin-top: 28px;
+}
+
+#masterclass .btn-primary:hover {
+  background-color: #126d55
+}
 
 /*************************
 ******Twitter CSS****
