@@ -27,7 +27,7 @@ a {
   transition: 300ms;
 }
 
-a:focus, 
+a:focus,
 a:hover {
   text-decoration: none;
   outline: none
@@ -51,7 +51,7 @@ h2 {
   background-color: #fff;
 }
 
-.navbar-toggle, 
+.navbar-toggle,
 .navbar-toggle:focus {
   border:1px solid #fff;
   outline: none;
@@ -74,7 +74,7 @@ h2 {
   z-index: 999;
 }
 
-.main-nav 
+.main-nav
 .container {
   width: 100%
 }
@@ -82,7 +82,7 @@ h2 {
 .social-icons a {
   font-size: 18px;
   color: #fff;
-  padding-left:20px;  
+  padding-left:20px;
 }
 
 .social-icons .fa-facebook:hover {
@@ -128,8 +128,8 @@ h2 {
   font-weight: 300;
 }
 
-.navbar-right li a:hover, 
-.navbar-right li a:focus,  
+.navbar-right li a:hover,
+.navbar-right li a:focus,
 .navbar-right .active a {
   background-color: #fff;
   color: #16728f
@@ -185,7 +185,7 @@ h2 {
   width: 100%
 }
 
-#main-slider 
+#main-slider
 .carousel-caption {
   background: none repeat scroll 0 0 #000000;
   bottom: 14%;
@@ -200,34 +200,34 @@ h2 {
 }
 
 
-#main-slider 
-.carousel-caption h2 {  
+#main-slider
+.carousel-caption h2 {
   font-size: 38px;
- 
+
 }
 
-#main-slider 
+#main-slider
 .carousel-caption h4 {
   font-size: 24px;
 }
 
-#main-slider 
+#main-slider
 .carousel-caption a {
   font-size: 22px;
   color: #2da1c5
 }
 
-#main-slider 
+#main-slider
 .carousel-caption a:hover {
   color: #2588a6
 }
 
-#main-slider 
+#main-slider
 .carousel-caption a:hover i {
   margin-left: 35px
 }
 
-#main-slider 
+#main-slider
 .carousel-caption a i {
   margin-left: 15px;
   -webkit-transition: all 0.3s ease-in-out;
@@ -237,13 +237,13 @@ h2 {
   transition: all 0.3s ease-in-out;
 }
 
-#main-slider 
+#main-slider
 .carousel-indicators li {
   background-color:#1B7B98;
   border: 1px solid #1B7B98;
 }
 
-#main-slider 
+#main-slider
 .carousel-indicators li.active {
   background-color:#fff;
   border: 1px solid #fff;
@@ -316,7 +316,7 @@ h2 {
 }
 
 #countdown li .hours {
-  background-color: #efc94c; 
+  background-color: #efc94c;
   border-top: 1px solid #f2d470;
   border-left: 1px solid #f2d470;
 }
@@ -354,7 +354,7 @@ h2 {
 }
 
 .cart {
-  background-color: #b34534;  
+  background-color: #b34534;
   position: absolute;
   right:-200px;
   top: 37%;
@@ -379,13 +379,13 @@ h2 {
 }
 
 .cart a i {
-  font-size: 30px;  
+  font-size: 30px;
   padding: 20px 12px;
-  background-color: #A64030; 
+  background-color: #A64030;
   margin-right: 3px;
 }
 
- 
+
 
  /*************************
 *******Event CSS******
@@ -439,7 +439,7 @@ h2 {
   position: relative;
 }
 
-.even-control-left, 
+.even-control-left,
 .even-control-right {
   position: absolute;
   font-size: 24px;
@@ -449,7 +449,7 @@ h2 {
 
 .even-control-left {
   right: 3%
-} 
+}
 
 .even-control-right {
   right: 0;
@@ -469,51 +469,19 @@ h2 {
 **************************/
 
 #about {
-  background-color: #75B46E;  
-  position: relative;  
+  background-color: #75B46E;
+  position: relative;
   width: 100%;
   display: flex;
-}
-
-.guitar2 {
-  top: 0;
-  width: 50%;
-}
-
-.guitar2 img {
-  padding-top: 3%;
-}
-
-.about-content {
-  width: 50%;
-   background-image: url("../images/about-bg.jpg");
+  background-image: url("../images/about-bg.jpg");
   background-position: left bottom;
   background-repeat: no-repeat;
   background-size: cover;
   padding: 70px 70px 110px;
 }
-
-.about-content img {
-  width: 600px;
-}
-
-.about-img {
-  width: 50%;
-   background-image: url("../images/about-bg.jpg");
-  background-position: left bottom;
-  background-repeat: no-repeat;
-  background-size: cover;
-  padding: 70px 70px 110px;
-}
-.about-ing
 
 #about h2 {
   margin-bottom: 23px;
-}
-
-.about-content p {
-  font-size: 17px;
-  font-family: 'Dosis',sans-serif;
 }
 
 #about .btn-primary {
@@ -533,42 +501,23 @@ h2 {
 **************************/
 
 #masterclass {
-  background-color: #75B46E;  
-  position: relative;  
+  background-color: #75B46E;
+  position: relative;
   width: 100%;
   display: flex;
-}
-
-.masterclass-content {
-  width: 50%;
-   background-image: url("../images/performar-bg.jpg");
+  background-image: url("../images/performar-bg.jpg");
   background-position: left bottom;
   background-repeat: no-repeat;
   background-size: cover;
   padding: 70px 70px 110px;
 }
 
-.masterclass-content img {
-  width: 600px;
-}
-
-.masterclass-img {
-  width: 50%;
-   background-image: url("../images/performar-bg.jpg");
-  background-position: left bottom;
-  background-repeat: no-repeat;
-  background-size: cover;
-  padding: 70px 70px 110px;
-  width: 600px;
+#masterclass-img1 {
+  width: 75%;
 }
 
 #masterclass h2 {
   margin-bottom: 23px;
-}
-
-.masterclass-content p {
-  font-size: 17px;
-  font-family: 'Dosis',sans-serif;
 }
 
 #master .btn-primary {
@@ -618,8 +567,8 @@ h2 {
   margin-bottom: 30px;
 }
 
-#twitter-feed .item a, 
-#twitter-feed .item p { 
+#twitter-feed .item a,
+#twitter-feed .item p {
   font-size: 24px;
   font-weight: 300;
   font-family: 'Yanone Kaffeesatz','sans-serif';
@@ -633,7 +582,7 @@ h2 {
   color:#00c3ff;
 }
 
-.twitter-control-left, 
+.twitter-control-left,
 .twitter-control-right {
   position: absolute;
   color: #00c3ff;
@@ -647,7 +596,7 @@ h2 {
 
 .twitter-control-right {
   right:0;
-} 
+}
 
 
 
@@ -658,20 +607,13 @@ h2 {
 #sponsor {
   background-color: #1881a2;
   background-image: url("../images/sponsor-bg.jpg");
-  background-position:50% 0;
-  background-size: cover;
-  background-repeat:no-repeat;
   position: relative;
-}
-
-.light {
-  position: absolute;
-  right: 0;
-  bottom: 0;
-}
-
-#sponsor .col-sm-10 {
-  z-index: 10;
+  width: 100%;
+  display: flex;
+  background-position: left bottom;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 70px 70px 110px;
 }
 
 #sponsor h2 {
@@ -696,7 +638,7 @@ h2 {
   margin-right: 0
 }
 
-.sponsor-control-left, 
+.sponsor-control-left,
 .sponsor-control-right {
   color: #FFFFFF;
   font-size: 24px;
@@ -721,7 +663,7 @@ h2 {
 }
 
 #gmap {
-  height:450px;  
+  height:450px;
 }
 
 
@@ -734,7 +676,7 @@ h2 {
   background-image: url("../images/contact-bg.jpg");
   background-position:60% 0;
   background-size:contain;
-  background-repeat:no-repeat;  
+  background-repeat:no-repeat;
   position: relative;
 }
 
@@ -750,16 +692,16 @@ h2 {
 
 #contact h3 {
   text-transform:inherit;
-  color: #373737; 
+  color: #373737;
 }
 
-#contact-section h3 {  
+#contact-section h3 {
   margin-bottom: 25px
 }
 
 #contact address {
-  font-size: 18px;  
-  color: #373737; 
+  font-size: 18px;
+  color: #373737;
 }
 
 .contact-text {
@@ -781,7 +723,7 @@ h2 {
   border-color: #ae750d;
 }
 
-#contact-section input {  
+#contact-section input {
   height: 44px;
 }
 
