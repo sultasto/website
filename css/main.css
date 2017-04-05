@@ -121,7 +121,6 @@ h2 {
 
 .navbar-right li a {
   padding: 35px 21px;
-  font-size: medium;
   color: #fff;
   text-transform: uppercase;
   font-family: 'Yanone Kaffeesatz', 'sans-serif';
@@ -504,16 +503,16 @@ h2 {
   background-color: #126d55
 }
 
-*************************
+/*************************
 *******Press CSS**********
 **************************/
 
 #press {
   background-color: #ecedef;
+  background-image: url("../images/press-bg.jpg");
   position: relative;
   width: 100%;
   display: flex;
-  background-image: url("../images/twitter-bg.jpg");
   background-position: left bottom;
   background-repeat: no-repeat;
   background-size: cover;
@@ -528,7 +527,7 @@ h2 {
 #press h2 {
   color: black;
   margin-bottom: 23px;
-  padding: 60px 60px 0px;}
+}
 
 /*************************
 ******Twitter CSS****
@@ -724,12 +723,15 @@ h2 {
 #footer {
   background-color: #212121;
   background-image: url("../images/footer-bg.jpg");
-  background-position: center bottom;
   background-repeat: no-repeat;
   background-size: cover;
   color: #FFFFFF;
   font-size: 20px;
   padding: 35px 0;
+  position: relative;
+  width: 100%;
+  display: flex;
+  background-position: left bottom;
 }
 
 #footer a {
