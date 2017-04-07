@@ -530,6 +530,56 @@ h2 {
 }
 
 /*************************
+*******Photos CSS**********
+**************************/
+
+#photos {
+  background-color: #ecedef;
+  background-image: url("../images/photos-bg.jpg");
+  position: relative;
+  width: 100%;
+  display: flex;
+  background-position: left bottom;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 70px 70px 110px;
+}
+
+#exTab1 .tab-content {
+  color : white;
+    background: rgba(54, 25, 25, .5);
+  padding : 5px 15px;
+}
+
+#photos .photo-year {
+  text-align: center;
+}
+
+#photos img {
+  padding: 20px;
+  height: 300px;
+}
+
+#photos h2 {
+  color: black;
+  margin-bottom: 23px;
+}
+
+#photos h3 {
+  color: black;
+  font-size: xx-large;
+  font-weight: bold;
+}
+
+#photos .image {
+  text-align: center;
+}
+
+.thumbnail{
+    background: rgba(54, 25, 25, .5);
+}
+
+/*************************
 ******Twitter CSS****
 **************************/
 
@@ -733,13 +783,4 @@ h2 {
   display: flex;
   background-position: left bottom;
 }
-
-#footer a {
-  color:#f7ab24
-}
-
-#footer a:hover {
-  color:#1B7B98
-}
-
 
