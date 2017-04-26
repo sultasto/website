@@ -63,13 +63,10 @@ h2 {
 **************************/
 
 .header-top {
-  display: block;
-  overflow: hidden;
-  padding: 25px;
 }
 
 .main-nav {
-  position: absolute;
+  background-color: #1B7B98;
   width: 100%;
   z-index: 999;
 }
@@ -102,25 +99,21 @@ h2 {
 }
 
 .navbar-brand {
-  height: 90px;
-  margin-bottom: 20px;
-  position: relative;
-  width: 300px;
 }
 
 .navbar-brand img {
-  position: absolute;
-  top: -35px;
+  padding: 0;
+  height:60px;
+  top: 0;
 }
 
 .navbar-right {
   background-color: #BD2713;
-  padding:0 95px 0 0;
   opacity: .9
 }
 
 .navbar-right li a {
-  padding: 35px 21px;
+  padding: 34px 25px;
   color: #fff;
   text-transform: uppercase;
   font-family: 'Yanone Kaffeesatz', 'sans-serif';
@@ -169,6 +162,9 @@ h2 {
   display: none;
 }
 
+#accueil {
+  padding: 0;
+}
 
 
 /*************************
