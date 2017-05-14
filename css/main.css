@@ -406,6 +406,15 @@ h2 {
       padding: 20px 20px;
 }
 
+#festival a {
+  color: yellow;
+}
+
+#festival .half {
+    width:55%;
+  align: center;
+}
+
 
 #festival p {
     font-size: xx-large;
